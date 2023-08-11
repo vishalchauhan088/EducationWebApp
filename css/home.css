@@ -1,0 +1,104 @@
+*body{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(249, 194, 202);
+}
+
+
+.box{
+    margin:15% 20% 10vh 20%;
+    /* background-color: blue; */
+    border:solid 5px;
+}
+.header{
+    padding-left: 3%;
+    border-bottom:solid 3px;
+    border-top: solid 1px;
+    background-color: rgb(43, 165, 226);
+    
+}
+
+
+.nav{
+    position:fixed;
+    top:0px;
+    display:flex;
+    width:100vw;
+    height:60px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #140505;
+    flex-direction: row;
+    color:white;
+    
+    
+    
+}
+
+.fitem{
+   
+    margin:0px 5%;
+    
+}
+.fitem>a{
+    margin:0 8px;
+}
+
+
+a{
+    text-decoration:none;
+    color:greenyellow;
+    margin:8px 12px;
+    padding:8px 12px;
+    border-radius:8px;
+
+    
+}
+a:hover{
+    color:rgb(155, 246, 20);
+    text-shadow:0 0 8px ;
+    text-decoration: underline;
+
+   
+}
+h1{
+    text-align: center;
+    /* margin:10vh 0px ; */
+}
+
+form{
+    /* background-color: red; */
+    padding:30px 20px;
+}
+
+.btn{
+    display:block;
+    border-style:none;
+    /* background-color:blue; */
+    width:80%;
+    margin:auto;
+    margin-top:10%;
+    padding:9px;
+    border-radius: 30px;
+    background-color: blueviolet;
+}
+.each-que-box{
+    padding:3px;
+}
+
+
+.each-que-box:hover{
+        background-color: rgb(234, 160, 175);
+}
+
+.btn:hover{
+    
+    background-color:purple;
+}
+
+

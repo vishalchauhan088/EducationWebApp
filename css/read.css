@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(9, 17, 35);
+    color:white;
+}
+.body-heading{
+    border-radius: 8px;
+    color:tomato;
+    box-shadow: 0px 0px 5px tomato;
+    padding:8px;
+    
+}
+
+.jee {
+    display: block;
+}
+
+.neet {
+    display: none;
+}
+
+.class-x {
+    display: none;
+}
+
+#toggle-btn{
+   display:flex;
+   justify-content: center;
+   margin:5vh;  
+}
+#toggle-btn button{
+    margin:8px;
+    width:33.33%;
+    padding-top:8px;
+    padding-bottom: 8px;
+    background-color: blueviolet;
+}
+
+h1,h2,h3,h4,h5{
+    text-align: center;
+    margin:5vh 2vh 2vh 2vh;
+    text-decoration:dotted;
+}
+
+
+a{
+    text-decoration:none;
+    color:greenyellow;
+    /* margin:8px 12px;
+    padding:8px 12px; */
+    
+    padding-left:0px;
+    margin-left:0px;
+    border-radius:8px;
+
+    
+}
+a:hover{
+    color:rgb(155, 246, 20);
+    text-shadow:0 0 8px ;
+    text-decoration: underline;
+
+   
+}
+
+
+#main-content{
+    margin:10vh 10% 20% 20%;
+}
+
+.syllabus{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+/* .syllabus-item{
+    flex: 1;
+    flex-basis: max-content;
+} */
+ol{
+    list-style-position: outside;
+    
+}
+li{
+   
+    padding:5px 8px;
+    margin:8px;
+    margin-left:40px;
+}
+
+ol li:nth-child(2n+1){
+        background-color: rgb(17, 33, 71);
+}
+ol li:hover{
+    border-color: rgb(42, 83, 10);
+    box-shadow:0 0 5px #41c312;
+}
+
+#toggle-btn button:hover{
+    background-color: purple;
+}
+
+
+

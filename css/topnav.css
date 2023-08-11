@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+}
+.nav{
+    display:flex;
+    width:100vw;
+    height:60px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: inherit;
+    flex-direction: row;
+    color:white;
+    background-color: black;
+    
+    
+    
+}
+
+
+
+.fitem{
+   
+    margin:0px 3%;
+    
+}
+
+.nav h1{
+
+    letter-spacing:3px;
+    font-size: 30px;
+    font-family:Gill Sans;
+}
+
+a{
+    text-decoration:none;
+    color:greenyellow;
+    margin:8px 12px;
+    padding:8px 12px;
+    border-radius:8px;
+
+    
+}
+a:hover{
+    color:rgb(155, 246, 20);
+    text-shadow:0 0 8px ;
+    text-decoration: underline;
+
+}

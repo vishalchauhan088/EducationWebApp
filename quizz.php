@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read</title>
+    <!-- <link rel="stylesheet" href="read.css"> -->
+    <link rel="stylesheet" href="./css/read.css">
+    
+
+    <style>
+       
+    </style>
+</head>
+
+<body>
+
+    <nav>
+
+        <?php include 'topnav.php' ?>
+    </nav>
+
+    <div id="main-content">
+
+        <div class="margin">
+
+            <div class="body-heading">
+                <h1>Quizz Chapter Wise</h1>
+             </div>
+
+            <div id="toggle-btn">
+                <button name='button' onclick="jeemains()">JeeMains</button>
+                <button name='button' onclick="neet()">neet</button>
+                <button name='button' onclick="classx()">neet</button>
+            </div>
+
+            <div id="jee" class="jee">
+                <div class="heading">
+                    <h2>Jee mains syllabus</h2>
+                </div>
+
+                <div class="syllabus">
+
+
+
+                    <div id="physics-syllabus" class="syllabus-item">
+                        <div id="phy-heading" class="subject-heading"><h2>physics</h2></div>
+                        <div id="phy-list" class="chapter-list">
+                            <ol>
+                                <li><a href="#">Physics and Measurement</a></li>
+                                <li><a href="./quizz/home.php">Kinematics</a></li>
+                                <li><a href="#">Laws of Motion</a></li>
+                                <li><a href="#">Work, Energy, and Power</a></li>
+                                <li><a href="#">Rotational Motion</a></li>
+                                <li><a href="#">Gravitation</a></li>
+                                <li><a href="#">Properties of Solids and Liquids</a></li>
+                                <li><a href="#">Thermodynamics</a></li>
+                                <li><a href="#">Kinetic Theory of Gases</a></li>
+                                <li><a href="#">Oscillations and Waves</a></li>
+                                <li><a href="#">Electrostatics</a></li>
+                                <li><a href="#">Current Electricity</a></li>
+                                <li><a href="#">Magnetic Effects of Current and Magnetism</a></li>
+                                <li><div><a href="#">Electromagnetic Induction and Alternating Currents</a></div></li>
+                                <li><a href="#">Electromagnetic Waves</a></li>
+                                <li><a href="#">Optics</a></li>
+                                <li><a href="#">Dual Nature of Matter and Radiation</a></li>
+                                <li><a href="#">Atoms and Nuclei</a></li>
+                                <li><a href="#">Electronic Devices</a></li>
+                                <li><a href="#">Communication Systems</a></li>
+                              </ol>
+
+                        </div>
+
+                    </div>
+
+
+                    <div id="chemistry-syllabus" class="syllabus-item">
+                        <div id="chem-heading" class="subject-heading"><h2>chemistry</h2></div>
+                        <div id="chem-list" class="chapter-list">
+                            
+                            <ol>
+                                  <li><a href="link-to-basic-concepts">Some basic concepts in Chemistry</a></li>
+                                  <li><a href="link-to-states-of-matter">States of matter</a></li>
+                                  <li><a href="link-to-atomic-structure">Atomic structure</a></li>
+                                  <li><a href="link-to-chemical-bonding">Chemical bonding and molecular structure</a></li>
+                                  <li><a href="link-to-chemical-thermo">Chemical thermodynamics</a></li>
+                                  <li><a href="link-to-solutions">Solutions</a></li>
+                                  <li><a href="link-to-equilibrium">Equilibrium</a></li>
+                                  <li><a href="link-to-redox">Redox reactions and electrochemistry</a></li>
+                                  <li><a href="link-to-chem-kinetics">Chemical kinetics</a></li>
+                              
+                                <li><a href="link-to-purification">Purification and characterization of organic compounds</a></li>
+                                <li><a href="link-to-basic-principles">Some basic principles of organic chemistry</a></li>
+                               
+                            </ol>
+                                  
+                                  
+                         
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div id="maths-syllabus" class="syllabus-item">
+                        <div id="maths-heading" class="subject-heading"><h2>maths</h2></div>
+                        <div id="maths-list" class="chapter-list">
+                            <ol>
+                                <li><a href="#">Sets, Relations, and Functions</a></li>
+                                <li><a href="#">Complex Numbers and Quadratic Equations</a></li>
+                                <li><a href="#">Matrices and Determinants</a></li>
+                                <li><a href="#">Permutations and Combinations</a></li>
+                                <li><a href="#">Mathematical Induction</a></li>
+                                <li><a href="#">Binomial Theorem and Its Simple Applications</a></li>
+                                <li><a href="#">Sequences and Series</a></li>
+                                <li><a href="#">Limit, Continuity, and Differentiability</a></li>
+                                <li><a href="#">Integral Calculus</a></li>
+                                <li><a href="#">Differential Equations</a></li>
+                                <li><a href="#">Co-ordinate Geometry</a></li>
+                                <li><a href="#">Three-Dimensional Geometry</a></li>
+                                <li><a href="#">Vector Algebra</a></li>
+                                <li><a href="#">Statistics and Probability</a></li>
+                                <li><a href="#">Trigonometry</a></li>
+                                <li><a href="#">Mathematical Reasoning</a></li>
+                              </ol>
+                            
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <div id="neet" class="neet">
+                <div class="heading">
+                    <h2>Neet syllabus</h2>
+                </div>
+
+                <div class="syllabus">
+
+                    <div id="physics-syllabus" class="syllabus-item">
+                        <div id="phy-heading" class="subject-heading"><h2>physics</h2></div>
+                        <div id="phy-list" class="chapter-list">
+                            <ol>
+                                <li><a href="#">Physics and Measurement</a></li>
+                                <li><a href="#">Kinematics</a></li>
+                                <li><a href="#">Laws of Motion</a></li>
+                                <li><a href="#">Work, Energy, and Power</a></li>
+                                <li><a href="#">Rotational Motion</a></li>
+                                <li><a href="#">Gravitation</a></li>
+                                <li><a href="#">Properties of Solids and Liquids</a></li>
+                                <li><a href="#">Thermodynamics</a></li>
+                                <li><a href="#">Kinetic Theory of Gases</a></li>
+                                <li><a href="#">Oscillations and Waves</a></li>
+                                <li><a href="#">Electrostatics</a></li>
+                                <li><a href="#">Current Electricity</a></li>
+                                <li><a href="#">Magnetic Effects of Current and Magnetism</a></li>
+                                <li><a href="#">Electromagnetic Induction and Alternating Currents</a></li>
+                                <li><a href="#">Electromagnetic Waves</a></li>
+                                <li><a href="#">Optics</a></li>
+                                <li><a href="#">Dual Nature of Matter and Radiation</a></li>
+                                <li><a href="#">Atoms and Nuclei</a></li>
+                                <li><a href="#">Electronic Devices</a></li>
+                                <li><a href="#">Communication Systems</a></li>
+                              </ol>
+
+                        </div>
+
+                    </div>
+
+
+                    <div id="chemistry-syllabus" class="syllabus-item">
+                        <div id="chem-heading" class="subject-heading"><h2>chemistry</h2></div>
+                        <div id="chem-list" class="chapter-list">
+                            <ol>
+                                  <li><a href="link-to-basic-concepts">Some basic concepts in Chemistry</a></li>
+                                  <li><a href="link-to-states-of-matter">States of matter</a></li>
+                                  <li><a href="link-to-atomic-structure">Atomic structure</a></li>
+                                  <li><a href="link-to-chemical-bonding">Chemical bonding and molecular structure</a></li>
+                                  <li><a href="link-to-chemical-thermo">Chemical thermodynamics</a></li>
+                                  <li><a href="link-to-solutions">Solutions</a></li>
+                                  <li><a href="link-to-equilibrium">Equilibrium</a></li>
+                                  <li><a href="link-to-redox">Redox reactions and electrochemistry</a></li>
+                                  <li><a href="link-to-chem-kinetics">Chemical kinetics</a></li>
+                              
+                                <li><a href="link-to-purification">Purification and characterization of organic compounds</a></li>
+                                <li><a href="link-to-basic-principles">Some basic principles of organic chemistry</a></li>
+                               
+                            </ol>
+                        </div>
+
+                    </div>
+
+                    <div id="biology-syllabus" class="syllabus-item">
+                        <div id="bio-heading" class="subject-heading"><h2>Biology</h2></div>
+                        <div id="chem-list" class="chapter-list">
+                            <ol>
+                                <li><a href="#">The Living World</a></li>
+                                <li><a href="#">Biological Classification</a></li>
+                                <li><a href="#">Plant Kingdom</a></li>
+                                <li><a href="#">Animal Kingdom</a></li>
+                                <li><a href="#">Morphology of Flowering Plants</a></li>
+                                <li><a href="#">Anatomy of Flowering Plants</a></li>
+                                <li><a href="#">Structural Organization in Animals</a></li>
+                                <li><a href="#">Cell: The Unit of Life</a></li>
+                                <li><a href="#">Biomolecules</a></li>
+                                <li><a href="#">Cell Cycle and Cell Division</a></li>
+                                <li><a href="#">Transport in Plants</a></li>
+                                <li><a href="#">Mineral Nutrition</a></li>
+                                <li><a href="#">Photosynthesis in Higher Plants</a></li>
+                                <li><a href="#">Respiration in Plants</a></li>
+                                <li><a href="#">Plant Growth and Development</a></li>
+                                <li><a href="#">Digestion and Absorption</a></li>
+                                <li><a href="#">Breathing and Exchange of Gases</a></li>
+                                <li><a href="#">Body Fluids and Circulation</a></li>
+                                <li><a href="#">Excretory Products and their Elimination</a></li>
+                                <li><a href="#">Locomotion and Movement</a></li>
+                                <li><a href="#">Neural Control and Coordination</a></li>
+                                <li><a href="#">Chemical Coordination and Integration</a></li>
+                                <li><a href="#">Reproduction in Organisms</a></li>
+                                <li><a href="#">Sexual Reproduction in Flowering Plants</a></li>
+                                <li><a href="#">Human Reproduction</a></li>
+                                <li><a href="#">Reproductive Health</a></li>
+                                <li><a href="#">Principles of Inheritance and Variation</a></li>
+                                <li><a href="#">Molecular Basis of Inheritance</a></li>
+                                <li><a href="#">Evolution</a></li>
+                                <li><a href="#">Human Health and Disease</a></li>
+                                <li><a href="#">Strategies for Enhancement in Food Production</a></li>
+                                <li><a href="#">Microbes in Human Welfare</a></li>
+                                <li><a href="#">Biotechnology: Principles and Processes</a></li>
+                                <li><a href="#">Biotechnology and its Applications</a></li>
+                                <li><a href="#">Organisms and Populations</a></li>
+                                <li><a href="#">Ecosystem</a></li>
+                                <li><a href="#">Biodiversity and Conservation</a></li>
+                                <li><a href="#">Environmental Issues</a></li>
+                              </ol>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <div id="class-x" class="class-x">
+                <div class="heading">
+                    <h2>Jee mains syllabus</h2>
+                </div>
+
+                <div class="syllabus">
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="./js/read.js"></script>
+
+
+</body>
+
+</html>
